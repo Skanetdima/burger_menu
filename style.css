@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #fff1e3;
+    font-family: 'Open Sans', sans-serif;  
+    color: #000;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+}
+.burger{
+    width: 180px;
+    height: 120px;
+    cursor: pointer;
+    background: url('burger.svg') no-repeat center;
+    background-size: contain;
+}
+.burger_active{
+    background: url("cross.svg")
+}
